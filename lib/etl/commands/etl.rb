@@ -23,6 +23,7 @@
 
 require 'benchmark'
 require 'getoptlong'
+require 'protected_attributes'
 
 # Print a usage statement
 def usage #:nodoc:
