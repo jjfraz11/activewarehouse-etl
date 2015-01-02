@@ -13,6 +13,7 @@ module ETL #:nodoc
   end
 end
 
+require 'protected_attributes'
 require 'etl/execution/base'
 require 'etl/execution/batch'
 require 'etl/execution/job'
